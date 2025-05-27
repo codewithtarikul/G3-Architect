@@ -53,9 +53,10 @@
   align-items: center;
  }
 .nav-item{
-  margin-right: 30px;
+  margin-left: 60px;
   list-style: none;
 }
+
 
 .nav-link{
   text-decoration: none;
@@ -87,6 +88,19 @@
   width: 100%;
 }
 
+/* Team Section Styles */
+  .teams{
+    max-width: 1449px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 120px;
+
+  } 
+  .teams-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  } 
 
 /* Responsive Media Query */
 
